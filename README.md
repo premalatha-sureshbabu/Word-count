@@ -18,10 +18,14 @@ Finding the given length of the words by using len() fuction.
 ### Step 6: 
 Calling the function and Printing the number of words.
 ## PROGRAM:
-![wordcount 1](https://user-images.githubusercontent.com/120620842/214016646-cfc3a18a-7157-41f4-b3a8-281f88823ae0.jpg)
+Developed by:S.Premalatha
+Ref no:22009393
+num_words = 0 with open('text.txt'.'r') as f1: for i in f1: word = i.split() num_words += len(word) print("number of words in the file = {}".format(num_words))
+
 
 ### OUTPUT:
-![wordcount 2](https://user-images.githubusercontent.com/120620842/214016695-16f12b19-8bf0-4849-b896-aa36ab8abd8a.jpg)
+
+![Screenshot (73)](https://user-images.githubusercontent.com/120620842/214808077-de5b31ed-0fc5-435f-944f-359e9680200b.png)
 
 
 
